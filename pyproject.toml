@@ -2,7 +2,7 @@
 name = "deds-portfolio"
 version = "0.1.0"
 description = ""
-authors = ["markieboy223 <markvanderburg01@gmail.com>"]
+authors = ["markieboy223 <markvanderburg01@gmail.com>", "Jaygerners <Jaygerners@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
