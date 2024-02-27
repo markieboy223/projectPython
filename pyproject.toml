@@ -2,17 +2,14 @@
 name = "deds-portfolio"
 version = "0.1.0"
 description = ""
-authors = ["markieboy223 <markvanderburg01@gmail.com>", "Jaygerners <Jaygerners@hotmail.com>"]
+authors = ["markieboy223 <markvanderburg01@gmail.com>","Jaygerners <20127235@student.hhs.nl>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-pandas = "^2.2.0"
+pandas = "^2.2.1"
 ipykernel = "^6.29.2"
 
-
-[tool.poetry.group.dev.dependencies]
-ipykernel = "^6.29.2"
 
 [build-system]
 requires = ["poetry-core"]
