@@ -3,7 +3,7 @@ from settings import settings, logger
 import pandas as pd
 import sqlite3
 import pyodbc
-def main():
+def proces():
     conn_str = (
         'Driver={SQL Server};'
         'SERVER=' + settings.servername + ';'
@@ -194,6 +194,3 @@ def main():
     export_conn.commit()
     cursor.close()
     export_conn.close()
-
-if __name__ == "__main__":
-    main()
