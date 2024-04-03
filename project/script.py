@@ -1,5 +1,5 @@
 # %%
-from settings import settings, logger
+from settings import settings
 import pandas as pd
 import sqlite3
 import pyodbc
